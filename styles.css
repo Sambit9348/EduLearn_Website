@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Laptop.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.about-section {
+    background-color: #f8f9fa;
+}
+
+.courses-section {
+    background-color: #e9ecef;
+}
+
+.footer {
+    background-color: #0069d9;
+}
+
+/* Navbar Customizations */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/* Cards Customization */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Form Customizations */
+#contactForm input, #contactForm textarea {
+    border-radius: 0;
+}
+
+#contactForm button {
+    border-radius: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 70vh;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
